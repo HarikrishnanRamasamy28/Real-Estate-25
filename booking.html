@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./logo.jpg.jpg">
+    <title>Booking</title>
+    <link rel="stylesheet" href="./booking.css">
+</head>
+<body>
+
+<!-- Hamburger -->
+<button class="hamburger" id="hamburger">☰</button>
+
+<nav class="navBar">
+  <div class="logo">
+    <img src="./logo.jpg.jpg" alt="" height="80px" width="80px">
+    <h3>STACKLY</h3>
+  </div>
+
+  <div class="navLinks">
+    <ul class="linkLeft">
+      <li><a href="./home2.html">Home</a></li>
+      <li><a href="./product.html" class="active">Product</a></li>
+      <li><a href="./landing.html">Landing</a></li>
+      <li><a href="./content.html">Content</a></li>
+      <li><a href="./booking.html">Booking</a></li>
+      <!-- <li><a href="./index.html">Contact</a></li> -->
+    </ul>
+
+    <ul class="linkRight">
+      <li>
+        <input type="search" placeholder="search blogs">
+        <button>Search</button>
+      </li>
+      <button onclick="window.location.href='signIn.html'">SignIn</button>
+    </ul>
+  </div>
+</nav>
+
+
+
+
+
+
+<!-- Booking Hero Section -->
+<section class="booking-hero">
+  <div class="hero-container">
+    <div class="hero-text">
+      <h1>Book Your Dream Property Visit</h1>
+      <p>Experience a seamless property tour with our expert agents. Select your preferred time and location, and we’ll make your visit effortless and memorable.</p>
+      <a href="./error.html" class="hero-btn">Reserve Your Spot</a>
+    </div>
+    <div class="hero-image">
+      <img src="./landing_home_1-removebg-preview.png" alt="Property Visit">
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+
+<!-- Booking Section -->
+<section class="booking-section">
+    <div class="booking-wrapper">
+
+      <!-- Left Content -->
+      <div class="booking-content">
+        <h2>Book Your Property Visit Today</h2>
+        <p>
+          Ready to find your dream home or make a smart investment?  
+          Schedule a property visit with our expert agents and experience the difference.
+        </p>
+        <ul>
+          <li>Flexible viewing schedules</li>
+          <li>Personalized property recommendations</li>
+          <li>No hidden fees, 100% transparency</li>
+        </ul>
+      </div>
+
+      <!-- Right Booking Form -->
+      <div class="booking-form">
+        <h3>Schedule a Visit</h3>
+        <form action="#" method="post">
+          <div class="form-group">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone" placeholder="Enter your phone" required>
+          </div>
+          <div class="form-group">
+            <label for="date">Preferred Date</label>
+            <input type="date" id="date" name="date" required>
+          </div>
+          <div class="form-group">
+            <label for="property">Select Property Type</label>
+            <select id="property" name="property" required>
+              <option value="">-- Choose an option --</option>
+              <option value="apartment">Apartment</option>
+              <option value="villa">Villa</option>
+              <option value="plot">Residential Plot</option>
+              <option value="commercial">Commercial Space</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="message">Additional Notes</label>
+            <textarea id="message" name="message" placeholder="Any special requirements..."></textarea>
+          </div>
+          <button type="submit" onclick="window.location.href='./error.html'">Book Now</button>
+        </form>
+      </div>
+
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+<section class="advanced-form">
+  <form>
+    <div class="form-group">
+      <input type="text" id="budget" name="budget" required placeholder=" ">
+      <label for="budget">Estimated Budget</label>
+    </div>
+
+    <div class="form-group">
+      <input type="text" id="location" name="location" required placeholder=" ">
+      <label for="location">Preferred Location</label>
+    </div>
+
+    <div class="form-group">
+      <select id="time" name="time" required>
+        <option value="" disabled selected></option>
+        <option value="morning">Morning (9 AM - 12 PM)</option>
+        <option value="afternoon">Afternoon (12 PM - 3 PM)</option>
+        <option value="evening">Evening (3 PM - 6 PM)</option>
+      </select>
+      <label for="time">Preferred Time Slot</label>
+    </div>
+
+    <div class="form-group">
+      <select id="bedrooms" name="bedrooms" required>
+        <option value="" disabled selected></option>
+        <option value="1">1 Bedroom</option>
+        <option value="2">2 Bedrooms</option>
+        <option value="3">3 Bedrooms</option>
+        <option value="4plus">4+ Bedrooms</option>
+      </select>
+      <label for="bedrooms">Bedrooms Needed</label>
+    </div>
+
+    <div class="form-group radio-group">
+      <span>Preferred Contact Method</span>
+      <label>
+        <input type="radio" name="contact_method" value="phone" checked>
+        <span class="custom-radio"></span>
+        Phone
+      </label>
+      <label>
+        <input type="radio" name="contact_method" value="email">
+        <span class="custom-radio"></span>
+        Email
+      </label>
+    </div>
+
+    <div class="form-group">
+      <input type="file" id="doc" name="doc">
+      <label for="doc">Upload ID or Document (optional)</label>
+    </div>
+
+    <button type="submit" class="btn-submit" 
+      onclick="window.location.href='./error.html'">Submit Request
+    </button>
+  </form>
+</section>
+
+
+
+
+
+
+
+
+
+
+   <script src="./booking.js"></script>
+</body>
+</html>

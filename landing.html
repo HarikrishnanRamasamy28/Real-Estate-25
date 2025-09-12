@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./logo.jpg.jpg">
+    <title>Landing</title>
+    <link rel="stylesheet" href="./landing.css">
+</head>
+<body>
+
+<!-- Hamburger -->
+<button class="hamburger" id="hamburger">☰</button>
+
+<nav class="navBar">
+  <div class="logo">
+    <img src="./logo.jpg.jpg" alt="" height="80px" width="80px">
+    <h3>STACKLY</h3>
+  </div>
+
+  <div class="navLinks">
+    <ul class="linkLeft">
+      <li><a href="./home2.html">Home</a></li>
+      <li><a href="./product.html" class="active">Product</a></li>
+      <li><a href="./landing.html">Landing</a></li>
+      <li><a href="./content.html">Content</a></li>
+      <li><a href="./booking.html">Booking</a></li>
+      <!-- <li><a href="./index.html">Contact</a></li> -->
+    </ul>
+
+    <ul class="linkRight">
+      <li>
+        <input type="search" placeholder="search blogs">
+        <button>Search</button>
+      </li>
+      <button onclick="window.location.href='signIn.html'">SignIn</button>
+    </ul>
+  </div>
+</nav>
+
+
+
+
+
+
+<!-- section 01 -->
+<section class="valuation">
+  <h2>Wondering What Your Home Is Worth?</h2>
+  <p>Enter your address below, and we'll provide a personalized market valuation report—fast, free, and no commitment.</p>
+  <form class="valuation-form">
+    <input type="text" name="address" placeholder="Enter Your Property Address" required />
+    <button type="submit" class="pulse-button" 
+      onclick="window.location.href='./error.html'">Get My Home Valuation
+    </button>
+  </form>
+</section>
+
+
+
+
+
+
+<!-- section 02 -->
+<section class="featured-listings">
+  <!-- Section Header -->
+  <h2> <span>Search</span> or <span>Browse</span> Our <span>Featured Properties</span> </h2>
+  <p>Looking for a home? Use the search below or check out some top listings.</p>
+
+  <!-- Search Bar -->
+  <form class="property-search-form">
+    <input type="text" name="search" placeholder="Enter city, neighborhood, or listing ID" required />
+    <button type="submit" 
+      onclick="window.location.href='./error.html'">Search
+    </button>
+  </form>
+
+  <!-- Featured Property Cards -->
+  <div class="property-grid">
+    <div class="property-card">
+      <img src="./home img 1.png" alt="Property 1">
+      <div class="info">
+        <h3>Modern House 2-Bed in Mumbai</h3>
+        <p>₹1.2 Cr · 2 BHK · 1,200 sq ft</p>
+        <button onclick="window.location.href='./error.html'">
+          View Details
+        </button>
+      </div>
+    </div>
+
+    <div class="property-card">
+      <img src="./home img 2.png" alt="Property 2">
+      <div class="info">
+        <h3>Modern Apartment in Bandra</h3>
+        <p>₹2.5 Cr · 3 BHK · 1,500 sq ft</p>
+        <button>Book a Tour</button>
+      </div>
+    </div>
+
+    <div class="property-card">
+      <img src="./home img 3.png" alt="Property 2">
+      <div class="info">
+        <h3>Modern Apartment in Bandra</h3>
+        <p>₹2.5 Cr · 3 BHK · 1,500 sq ft</p>
+        <button onclick="window.location.href='./error.html'">
+          View Details
+        </button>
+      </div>
+    </div>
+
+    <div class="property-card">
+      <img src="./home img 4.png" alt="Property 2">
+      <div class="info">
+        <h3>Modern Apartment in Bandra</h3>
+        <p>₹2.5 Cr · 3 BHK · 1,500 sq ft</p>
+        <button onclick="window.location.href='./error.html'">
+          View Details
+        </button>
+      </div>
+    </div>
+
+    <!-- <div class="property-card">
+      <img src="./home img 1.png" alt="Property 2">
+      <div class="info">
+        <h3>Modern Apartment in Bandra</h3>
+        <p>₹2.5 Cr · 3 BHK · 1,500 sq ft</p>
+        <button>Book a Tour</button>
+      </div>
+    </div> -->
+    <!-- Add more cards as needed -->
+  </div>
+</section>
+
+
+
+
+
+
+
+
+<!-- section 03 -->
+<section class="virtual-gallery">
+  <h2>Explore the Property & Neighborhood</h2>
+  <p>Experience every corner of your future home—without stepping outside.</p>
+
+  <div class="gallery-container">
+    <!-- Embedded Virtual Tour (360° video or iframe widget) -->
+    <div class="tour-slider">
+        <div class="slider-track">
+            <img src="./landing_home_1-removebg-preview.png" alt="Home Image 1">
+            <img src="./landing_home_2-removebg-preview.png" alt="Home Image 2">
+            <img src="./landing_home_3-removebg-preview.png" alt="Home Image 3">
+            <!-- Optional: repeat images for seamless loop -->
+            <img src="./landing_home_4-removebg-preview.png" alt="Home Image 1">
+            <img src="./home img 2.png" alt="Home Image 2">
+        </div>
+    </div>
+    <!-- Gallery: Images or key neighborhood spots -->
+    <div class="gallery">
+      <div class="images">
+        <h3>Kitchen</h3>
+        <img src="./landing kitchen.jpg" alt="Kitchen angle view">
+      </div>
+      <div class="images">
+        <h3>Living Room</h3>
+        <img src="./landing living room.jpg" alt="Living room space">
+      </div>
+      <div class="images">
+        <h3>Terrace</h3>
+        <img src="./landing park.jpg" alt="Nearby park">
+      </div>
+      <div class="images">
+        <h3>Local School</h3>
+        <img src="./landing school.jpg" alt="Local school building">
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+<!-- section 04 -->
+<section class="trust-signals">
+  <h2>Why Our Clients Trust Us</h2>
+  <div class="testimonials">
+    <div class="testimonial">
+      <p>"Smooth process from start to close!"</p>
+      <p class="author"> — Riya, First-time Buyer</p>
+    </div>
+    <div class="testimonial">
+      <p>"Got multiple offers in just a week. Incredible performance!"</p>
+      <p class="author"> — Varun, Seller</p>
+    </div>
+  </div>
+  
+  <h2>Meet Our New Agents</h2>
+  <div class="agent-profiles">
+    <div class="agent-profile">
+      <img src="./consultant.jpg" alt="Agent 1">
+      <h3>Priya Desai</h3>
+      <p>Senior Buyer’s Agent with 10+ years of experience in luxury properties.</p>
+      <button onclick="window.location.href='./error.html'">
+        Contact Priya
+      </button>
+    </div>
+    <div class="agent-profile">
+      <img src="./CEO.jpg" alt="Agent 2">
+      <h3>Rohan Mehta</h3>
+      <p>Top seller in the Western suburbs, ranked 2024 Rookie of the Year.</p>
+      <button onclick="window.location.href='./error.html'">
+        Contact Rohan
+      </button>
+    </div>
+    <!-- Add more agent profiles as needed -->
+  </div>
+</section>
+
+
+
+
+
+
+
+<!-- section 05 -->
+<section class="exclusive-offer">
+  <h2>Early Access to New Listings</h2>
+  <p>Sign up now to get exclusive previews before they go public.</p>
+  
+  <div class="countdown-timer" id="timer">
+    <span id="days"> 00 </span> d :
+    <span id="hours"> 00 </span> h :
+    <span id="minutes"> 00 </span> m :
+    <span id="seconds"> 00 </span> s
+  </div>
+  
+  <button class="cta-btn" onclick="window.location.href='./error.html'">
+    Get Early Access
+  </button>
+</section>
+
+
+
+
+
+
+
+
+
+<!-- section 06 -->
+<section class="faq-section">
+  <h2>Frequently Asked Questions</h2>
+  <div class="faq">
+    <details class="faq-item">
+      <summary class="faq-question">How much are the closing costs?</summary>
+      <p class="faq-answer">Closing costs typically range between 2% to 5% of the purchase price and include fees for inspections, title insurance, and transfer taxes.</p>
+    </details>
+    <details class="faq-item">
+      <summary class="faq-question">What is a buyer’s agent fee?</summary>
+      <p class="faq-answer">Buyer's agent fees are usually covered by the seller; agents are paid from the sale proceeds.</p>
+    </details>
+    <details class="faq-item">
+      <summary class="faq-question">What financing options are available?</summary>
+      <p class="faq-answer">We work with a range of lenders offering loans such as conventional, FHA, and VA mortgages. We can connect you with trusted partners to explore your options.</p>
+    </details>
+  </div>
+</section>
+
+
+
+
+
+
+<!-- section 07 -->
+<section class="lead-capture">
+  <h2>Request a Consultation</h2>
+  <p>Fill in your details and we'll get back to you within 24 hours.</p>
+  <form class="lead-form">
+    <input type="text" name="name" placeholder="Your Name" required />
+    <input type="email" name="email" placeholder="Your Email" required />
+    <input type="tel" name="phone" placeholder="Phone Number" required />
+    <select name="purpose" required>
+      <option value="" disabled selected>I'm a</option>
+      <option value="buyer">Potential Buyer</option>
+      <option value="seller">Home Seller</option>
+    </select>
+    <button type="submit" onclick="window.location.href='./error.html'">
+      Submit
+    </button>
+  </form>
+</section>
+
+
+
+
+
+<script src="./landing.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="./logo.jpg.jpg">
+    <title>Home 2</title>
+    <link rel="stylesheet" href="./home2.css">
+</head>
+<body>
+
+<!-- Hamburger -->
+<button class="hamburger" id="hamburger">☰</button>
+
+<nav class="navBar">
+  <div class="logo">
+    <img src="./logo.jpg.jpg" alt="" height="80px" width="80px">
+    <h3>STACKLY</h3>
+  </div>
+
+  <div class="navLinks">
+    <ul class="linkLeft">
+      <li class="dropdown">
+        <a href="./home2.html">Home</a>
+        <ul class="dropdown-menu">
+          <li><a href="./index.html">Home Page 1</a></li>
+        </ul>
+      </li>
+
+      <!-- <li><a href="./index.html">Home</a></li> -->
+      <li><a href="./product.html" class="active">Product</a></li>
+      <li><a href="./landing.html">Landing</a></li>
+      <li><a href="./content.html">Content</a></li>
+      <li><a href="./booking.html">Booking</a></li>
+      <!-- <li><a href="./index.html">Contact</a></li> -->
+    </ul>
+
+    <ul class="linkRight">
+      <li>
+        <input type="search" placeholder="search blogs">
+        <button onclick="window.location.href='./error.html'">
+          Search
+        </button>
+      </li>
+      <button onclick="window.location.href='signIn.html'">SignIn</button>
+    </ul>
+  </div>
+</nav>
+
+
+
+
+
+<!-- section 1 -->
+<section class="hero-section">
+  <div class="hero-content">
+    <h1>Making Realty a Reality</h1>
+    <h3 class="hover-underline-bg">Your Future Starts at Home</h3>
+
+    <p>At Stackly, we help you make informed property decisions with 
+       confidence. Whether you're investing, buying your first home, 
+       expanding your business, or securing an ideal plot, our curated 
+       listings and expert guidance ensure you find the space that's 
+       just right—without the hassle. Join countless satisfied clients 
+       who've found their perfect investment or dream home through Stackly.
+       With trusted partnerships, transparent listings, and a team invested 
+       in your success, we're committed to exceeding your expectations—every 
+       step of the way.
+    </p>
+
+    <p class="list"><span class="hover-underline-bg">Our platform offers:</span></p>
+    <ul class="lists">
+      <li><span class="hover-underline-bg">Residential properties:</span> from cozy urban flats to spacious family homes</li>
+      <li><span class="hover-underline-bg">Commercial spaces:</span> offices, showrooms, retail—matched to your business goals</li>
+      <li><span class="hover-underline-bg">Land & plots:</span> ideal for development or investment</li>
+    </ul>
+
+    <a href="error.html" class="contact-btn">Contact Us</a>
+  </div>
+</section>
+
+
+
+
+
+
+
+
+<section id="products" class="products-section">
+  <div>
+    <h2><span>Discover</span> Your <span>Ideal Property</span></h2>
+    <p>
+        Explore our premium real estate offerings—from <strong>luxury apartments</strong> 
+        to <strong>affordable homes</strong>, <strong>commercial spaces</strong>, and 
+        <strong>plots of land</strong>. Stunning visuals, key features, and easy call-to-action 
+        buttons make finding your dream property simple.
+      </p>
+      <p>Imagine settling into a sleek, modern apartment overlooking the 
+         city skyline—or finding comfort in an affordable home with room 
+         for your family to grow. Our carefully curated listings bring 
+         both elegance and value within your reach.
+      </p>
+      <p>Each listing goes through a quality check for location, finish, 
+         and value—so you don’t have to worry. From cozy homes to 
+         commercial spaces, we guide you from search to closing with 
+         clarity and care.
+      </p>
+
+    <!-- Optional CTA Bar -->
+    <div class="cta-bar">
+      <p>Ready to find your dream home?</p>
+      <a href="./error.html" class="btn-cta">Schedule a Visit</a>
+      <a href="./error.html" class="btn-cta-secondary">Request Brochure</a>
+    </div>
+  </div>
+  
+  <div class="product-carousel">
+    <div class="product-card">
+      <!-- <span class="badge-new">New Listing</span> -->
+      <img src="./home img 1.png" alt="Luxury Apartment">
+      <div class="product-content">
+        <h3>Luxury Apartment</h3>
+        <p>Modern living with premium amenities in the heart of the city.</p>
+        <!-- Features -->
+        <div class="product-features">
+          <span>🛏 3 Bedrooms</span>
+          <span>🛁 2 Bathrooms</span>
+          <span>📐 1500 sq.ft</span>
+          <span>💰 From $250k</span>
+        </div>
+        <!-- CTA Button -->
+        <a href="./error.html" class="btn-cta btn">View Details</a>
+      </div>
+    </div>
+
+    <!-- Another Product Card -->
+    <div class="product-card">
+      <!-- <span class="badge-hot">Hot Deal</span> -->
+      <img src="./home img 2.png" alt="Affordable Home">
+      <div class="product-content">
+        <h3>Affordable Home</h3>
+        <p>Comfortable and budget-friendly homes for families seeking a cozy lifestyle.</p>
+        <div class="product-features">
+          <span>🛏 2 Bedrooms</span>
+          <span>🛁 1 Bathroom</span>
+          <span>📐 1200 sq.ft</span>
+          <span>💰 From $150k</span>
+        </div>
+        <a href="./error.html" class="btn-cta btn">View Details</a>
+      </div>
+    </div>
+
+    <!-- Commercial Space Card -->
+    <div class="product-card">
+      <img src="./home img 3.png" alt="Commercial Space">
+      <div class="product-content">
+        <h3>Commercial Space</h3>
+        <p>Ideal locations for your business, offering high visibility and accessibility.</p>
+        <div class="product-features">
+          <span>📐 3000 sq.ft</span>
+          <span>💰 From $500k</span>
+        </div>
+        <a href="./error.html" class="btn-cta btn">View Details</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+
+
+<!-- section 3 -->
+<section class="landing">
+<div class="landingPage">
+  <div class="image-slider">
+    <img src="./home img 4.png" alt="">
+    <img src="./home img 2.png" alt="">
+    <img src="./home img 3.png" alt="">
+    <img src="./home img 1.png" alt="">
+  </div>
+  
+  <div class="hero">
+    <h1>Launch Your Success with Our Proven Landing Page Framework</h1>
+    <p>Designed for marketers, startups, and creators, our layout streamlines your message, builds trust, and drives conversions—fast.</p>
+    <!-- <h2>Fast, Simple, Effective</h2>
+    <p>Get started quickly with our landing-style layout designed to convert.</p> -->
+    <a href="./error.html" class="btn">Start Now</a>
+  </div>
+</div>
+
+
+<div class="landContainer">
+  <div class="faq">
+    <details class="faq-item">
+      <summary class="faq-question">What’s the turnaround time?</summary>
+      <p class="faq-answer">We’ll get you started within 24 hours after sign-up.</p>
+    </details>
+
+    <details class="faq-item">
+      <summary class="faq-question">Are there any hidden fees?</summary>
+      <p class="faq-answer">Nope—transparent pricing and no surprises.</p>
+    </details>
+
+    <details class="faq-item">
+      <summary class="faq-question">How long does it take to buy a home?</summary>
+      <p class="faq-answer">On average, the home buying process takes 
+        about 55 to 70 days, including 25 days on the market and 30 to 45 
+        days for closing. However, this timeline can vary based on factors 
+        like market conditions and the property's location.
+      </p>
+    </details>
+
+    <details class="faq-item">
+      <summary class="faq-question">What is a buyer's agent?</summary>
+      <p class="faq-answer">A buyer's agent is a licensed real estate 
+        professional who represents the buyer's interests. They assist in 
+        finding suitable properties, negotiating offers, and guiding clients 
+        through the purchasing process.
+      </p>
+    </details>
+  </div>
+
+  <!-- Testimonials Section -->
+  <div class="testimonials">
+      <h3>What Our Users Say</h3>
+      <div class="testimonial">
+        <p>"This layout is a game-changer for our marketing campaigns!"</p>
+        <p>- Alex R., Marketing Director</p>
+      </div>
+      <div class="testimonial">
+        <p>"Easy to implement and delivers results quickly."</p>
+        <p>- Sarah L., Startup Founder</p>
+      </div>
+  </div>
+</div>
+</section>
+
+
+
+
+
+
+
+
+
+<!-- section 4 -->
+<section id="about" class="content-section">
+  <div class="img-with-content">
+    <!-- <img src="./content.jpeg" alt="Real Estate Banner"> -->
+    <div class="content">
+      <h2><span>Why Choose Our</span> Real Estate <span>Company?</span></h2>
+      <p>
+        We are committed to helping you find the perfect property. With a wide range of listings, 
+        expert guidance, and a customer-first approach, our team ensures a smooth and enjoyable 
+        property journey for every client.
+      </p>
+    </div>
+  </div>
+
+  <!-- Features Grid -->
+  <div class="features-grid">
+    <!-- Feature 1 -->
+    <div class="feature-card">
+      <span class="feature-icon">🏠</span>
+      <h3>Wide Property Selection</h3>
+      <p>From luxury apartments to affordable homes, we provide a diverse range of properties to fit every need.</p>
+    </div>
+
+    <!-- Feature 2 -->
+    <div class="feature-card">
+      <span class="feature-icon">💼</span>
+      <h3>Expert Guidance</h3>
+      <p>Our experienced agents offer professional advice to help you make informed decisions with confidence.</p>
+    </div>
+
+    <!-- Feature 3 -->
+    <div class="feature-card">
+      <span class="feature-icon">📍</span>
+      <h3>Prime Locations</h3>
+      <p>We list properties in the most desirable areas, ensuring convenience, amenities, and great investment potential.</p>
+    </div>
+
+    <!-- Feature 4 -->
+    <div class="feature-card">
+      <span class="feature-icon">✅</span>
+      <h3>Trusted & Reliable</h3>
+      <p>Our clients’ satisfaction is our priority. We maintain transparency and trust throughout the property process.</p>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="footer-container">
+    
+    <!-- Column 1: About -->
+    <div class="footer-col">
+      <h3>Smart Realty</h3>
+      <p>Your trusted partner in buying, selling, and renting properties. We make your real estate journey smooth and stress-free.</p>
+    </div>
+
+    <!-- Column 2: Quick Links -->
+    <div class="footer-col">
+      <h3>Quick Links</h3>
+      <ul>
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./about.html">About</a></li>
+        <li><a href="./service.html">Services</a></li>
+        <li><a href="./blog.html">Blog</a></li>
+        <li><a href="./contact.html">Contact</a></li>
+      </ul>
+    </div>
+
+    <!-- Column 3: Contact Info -->
+    <div class="footer-col">
+      <h2>📞 Contact Us</h2>
+      <p>📍MMR Complex, Chinna Thirupathi, </p>
+      <p> near Chinna Muniyappan Kovil ... </p>
+      <p>📞 +91 70107 92745</p>
+      <p><strong>📧 Email:</strong> <a href="error.html">info@thestackly.com</a></p>
+
+    </div>
+
+    <!-- Column 4: Social Media -->
+    <div class="footer-col">
+      <h3>Follow Us</h3>
+      <div class="social-links">
+        <a href="error.html">
+        <img src="./facebook.png.png" alt="Facebook">
+        </a>
+        <a href="error.html">
+        <img src="./twitter.png" alt="Twitter">
+        </a>
+        <a href="error.html">
+        <img src="./instagram.png.png" alt="Instagram">
+        </a>
+        <a href="error.html">
+        <img src="./linkedin.png.png" alt="LinkedIn">
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bottom bar -->
+  <div class="footer-bottom">
+    <p>&copy; 2025 Smart Realty. All Rights Reserved.</p>
+  </div>
+</footer>
+
+
+
+<script src="./home2.js"></script>  
+  
+</body>
+</html>

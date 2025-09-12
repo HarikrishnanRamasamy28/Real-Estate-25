@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./logo.jpg.jpg">
+    <title>Product</title>
+    <link rel="stylesheet" href="./product.css">
+</head>
+<body>
+    <!-- Hamburger -->
+<button class="hamburger" id="hamburger">☰</button>
+
+<nav class="navBar">
+  <div class="logo">
+    <img src="./logo.jpg.jpg" alt="" height="80px" width="80px">
+    <h3>STACKLY</h3>
+  </div>
+
+  <div class="navLinks">
+    <ul class="linkLeft">
+      <li><a href="./home2.html">Home</a></li>
+      <li><a href="./product.html" class="active">Product</a></li>
+      <li><a href="./landing.html">Landing</a></li>
+      <li><a href="./content.html">Content</a></li>
+      <li><a href="./booking.html">Booking</a></li>
+      <!-- <li><a href="./index.html">Contact</a></li> -->
+    </ul>
+
+    <ul class="linkRight">
+      <li>
+        <input type="search" placeholder="search blogs">
+        <button>Search</button>
+      </li>
+      <button onclick="window.location.href='signIn.html'">SignIn</button>
+    </ul>
+  </div>
+</nav>
+
+
+
+
+
+
+
+<!-- section 01 -->
+<!-- Hero Section Start -->
+<section id="hero" class="hero-section">
+  <div class="hero-overlay"></div>
+  <div class="hero-content container">
+    <h1>Find Your Perfect Home</h1>
+    <p>Discover properties in <span class="highlight">prime neighborhoods</span> with ease.</p>
+    <div class="hero-cta">
+      <a href="./error.html" class="btn-primary">View Listings</a>
+    </div>
+    <form class="hero-search">
+      <input type="text" placeholder="Location, neighborhood, postal code" name="search" />
+      <select name="category">
+        <option value="">All types</option>
+        <option value="residential">Residential</option>
+        <option value="commercial">Commercial</option>
+        <option value="land">Land</option>
+      </select>
+      <button type="button" class="btn-search" 
+             onclick="window.location.href='./error.html'">Search
+      </button>
+    </form>
+  </div>
+</section>
+
+
+
+
+
+
+
+
+
+<!-- section 02 -->
+<section id="property-listings" class="property-listings full-bleed">
+  <h2>Our Properties</h2>
+  <div class="inner">
+    
+    <h3>Featured Properties</h3>
+    <p>
+      Current properties are actively listed homes available for purchase. 
+      They are typically move-in ready or offer potential for customization. 
+      These listings provide buyers with up-to-date options in the market, 
+      reflecting the latest availability and pricing. Including current 
+      properties ensures that prospective buyers have access to the most 
+      recent opportunities.
+    </p>
+    <div class="imgContainer">
+      <div class="property-card">
+        <img src="featured1.jpg" alt="Featured Property">
+        <div class="card-info">
+          <h4>Luxury Condo</h4>
+          <p class="status">Featured</p>
+          <p class="price">$750,000</p>
+          <p class="details">4 Beds • 3 Baths • 2,500 sq.ft</p>
+          <a href="./error.html" class="btn">View Details</a>
+        </div>
+      </div>
+
+      <div class="property-card">
+        <img src="current1.jpg" alt="Available Property">
+        <div class="card-info">
+          <h4>Family House</h4>
+          <p class="status">Available</p>
+          <p class="price">$450,000</p>
+          <p class="details">3 Beds • 2 Baths • 1,800 sq.ft</p>
+          <a href="./error.html" class="btn">View Details</a>
+        </div>
+      </div>
+
+      <div class="property-card">
+        <img src="completed1.jpg" alt="Sold Property">
+        <div class="card-info">
+          <h4>Modern Villa</h4>
+          <p class="status">Sold</p>
+          <p class="price">$1,200,000</p>
+          <p class="details">5 Beds • 4 Baths • 3,500 sq.ft</p>
+          <a href="./error.html" class="btn">View Archive</a>
+        </div>
+      </div>
+
+      <div class="property-card">
+        <img src="completed1.jpg" alt="Sold Property">
+        <div class="card-info">
+          <h4>Modern Villa</h4>
+          <p class="status">Sold</p>
+          <p class="price">$1,200,000</p>
+          <p class="details">5 Beds • 4 Baths • 3,500 sq.ft</p>
+          <a href="./error.html" class="btn">View Archive</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="inner">
+    <h3>Currently Available</h3>
+    <p>Current properties are actively listed homes available for purchase. 
+       They are typically move-in ready or offer potential for customization. 
+       These listings provide buyers with up-to-date options in the market, 
+       reflecting the latest availability and pricing. Including current properties 
+       ensures that prospective buyers have access to the most recent opportunities.
+    </p>
+    <div class="imgContainer">
+      <div class="property-card">
+        <img src="featured1.jpg" alt="Featured Property">
+        <div class="card-info">
+          <h4>Luxury Condo</h4>
+          <p class="status">Featured</p>
+          <p class="price">$750,000</p>
+          <p class="details">4 Beds • 3 Baths • 2,500 sq.ft</p>
+          <a href="./error.html" class="btn">View Details</a>
+        </div>
+      </div>
+
+      <div class="property-card">
+        <img src="current1.jpg" alt="Available Property">
+        <div class="card-info">
+          <h4>Family House</h4>
+          <p class="status">Available</p>
+          <p class="price">$450,000</p>
+          <p class="details">3 Beds • 2 Baths • 1,800 sq.ft</p>
+          <a href="./error.html" class="btn">View Details</a>
+        </div>
+      </div>
+
+      <div class="property-card">
+        <img src="completed1.jpg" alt="Sold Property">
+        <div class="card-info">
+          <h4>Modern Villa</h4>
+          <p class="status">Sold</p>
+          <p class="price">$1,200,000</p>
+          <p class="details">5 Beds • 4 Baths • 3,500 sq.ft</p>
+          <a href="./error.html" class="btn">View Archive</a>
+        </div>
+      </div>
+
+      <div class="property-card">
+        <img src="completed1.jpg" alt="Sold Property">
+        <div class="card-info">
+          <h4>Modern Villa</h4>
+          <p class="status">Sold</p>
+          <p class="price">$1,200,000</p>
+          <p class="details">5 Beds • 4 Baths • 3,500 sq.ft</p>
+          <a href="./error.html" class="btn">View Archive</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="inner">
+    <h3>Sold / Completed</h3>
+    <p>Completed properties are homes that have been sold or are no longer 
+       on the market. Displaying these properties offers insights into market 
+       trends, pricing history, and the types of homes that have recently attracted 
+       buyers. This section can serve as a valuable resource for prospective 
+       buyers and sellers to understand market dynamics and make informed decisions.
+    </p>
+    <div class="imgContainer">
+      <div class="property-card">
+        <img src="featured1.jpg" alt="Featured Property">
+        <div class="card-info">
+          <h4>Luxury Condo</h4>
+          <p class="status">Featured</p>
+          <p class="price">$750,000</p>
+          <p class="details">4 Beds • 3 Baths • 2,500 sq.ft</p>
+          <a href="./error.html" class="btn">View Details</a>
+        </div>
+      </div>
+
+      <div class="property-card">
+        <img src="current1.jpg" alt="Available Property">
+        <div class="card-info">
+          <h4>Family House</h4>
+          <p class="status">Available</p>
+          <p class="price">$450,000</p>
+          <p class="details">3 Beds • 2 Baths • 1,800 sq.ft</p>
+          <a href="./error.html" class="btn">View Details</a>
+        </div>
+      </div>
+
+      <div class="property-card">
+        <img src="completed1.jpg" alt="Sold Property">
+        <div class="card-info">
+          <h4>Modern Villa</h4>
+          <p class="status">Sold</p>
+          <p class="price">$1,200,000</p>
+          <p class="details">5 Beds • 4 Baths • 3,500 sq.ft</p>
+          <a href="./error.html" class="btn">View Archive</a>
+        </div>
+      </div>
+
+      <div class="property-card">
+        <img src="completed1.jpg" alt="Sold Property">
+        <div class="card-info">
+          <h4>Modern Villa</h4>
+          <p class="status">Sold</p>
+          <p class="price">$1,200,000</p>
+          <p class="details">5 Beds • 4 Baths • 3,500 sq.ft</p>
+          <a href="./error.html" class="btn">View Archive</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- section 03 -->
+<section class="testimonials">
+  <h2>What Our Clients Say</h2>
+  <div class="testimonial-container">
+    <!-- Testimonial 1 -->
+    <div class="testimonial-card">
+      <img src="./consultant.jpg" alt="Client 1" class="client-photo">
+      <blockquote>
+        <p>"Working with this team was a game-changer. They understood our needs and found us the perfect home."</p>
+        <footer>- Priya S., Homeowner</footer>
+      </blockquote>
+    </div>
+    <!-- Testimonial 2 -->
+    <div class="testimonial-card">
+      <img src="marketing.jpg" alt="Client 2" class="client-photo">
+      <blockquote>
+        <p>"Professional, responsive, and always available. A fantastic experience from start to finish."</p>
+        <footer>- Raj M., Investor</footer>
+      </blockquote>
+    </div>
+    <!-- Testimonial 3 -->
+    <div class="testimonial-card">
+      <img src="CEO.jpg" alt="Client 3" class="client-photo">
+      <blockquote>
+        <p>"They made the entire process seamless and stress-free. Highly recommend their services."</p>
+        <footer>- Anjali K., First-time Buyer</footer>
+      </blockquote>
+    </div>
+  </div>
+
+
+
+  <div class="video-testimonial">
+    <h3>Client Video Testimonial</h3>
+    <iframe width="560" height="315" 
+    src="https://www.youtube.com/embed/your-video-id" 
+    frameborder="0" 
+    allow="autoplay; encrypted-media" 
+    allowfullscreen></iframe>
+  </div>
+
+
+
+  <div>
+    <div class="company-values">
+      <h3>Our Core Values</h3>
+      
+      <div class="value-card">
+        <h4>🏆 Excellence</h4>
+        <p>We deliver the highest quality service and always aim to exceed client expectations.</p>
+      </div>
+      
+      <div class="value-card">
+        <h4>🤝 Integrity</h4>
+        <p>We believe in transparency and honesty, ensuring trust with every transaction.</p>
+      </div>
+      
+      <div class="value-card">
+        <h4>🌍 Community</h4>
+        <p>Our focus is on building lasting relationships and strengthening neighborhoods.</p>
+      </div>
+    </div>
+
+    <div class="latest-news">
+      <h3>Latest Market Insights</h3>
+      
+      <div class="news-card">
+        <h4>📈 Real Estate Trends 2025</h4>
+        <p>Discover the upcoming market shifts that will shape the future of property investment.</p>
+        <a href="./error.html">Read More →</a>
+      </div>
+      
+      <div class="news-card">
+        <h4>🏡 Home-Buying Guide</h4>
+        <p>A step-by-step guide for first-time buyers to make smart real estate decisions.</p>
+        <a href="./error.html">Read More →</a>
+      </div>
+   </div>
+
+  </div>
+
+
+
+
+  <div class="social-proof">
+    <h3>As Seen On</h3>
+    <div class="social-logos">
+      <img src="forbes-logo.png" alt="Forbes">
+      <img src="speqto-logo.png" alt="Speqto">
+      <img src="graphicszoo-logo.png" alt="Graphicszoo">
+    </div>
+  </div>
+  
+</section>
+
+  
+
+
+
+
+
+
+
+
+
+<!-- section 04 -->
+<section class="awards-recognition">
+  <h2>Recognitions & Achievements</h2>
+
+  <!-- Awards -->
+  <div class="recognition-category">
+    <h3>🏆 Awards</h3>
+    <ul>
+      <li>Best Real Estate Agency – 2024</li>
+      <li>Excellence in Customer Service – Realty Awards 2023</li>
+    </ul>
+  </div>
+
+  <!-- Client Trust -->
+  <div class="recognition-category">
+    <h3>⭐ Client Trust</h3>
+    <ul>
+      <li>Rated 4.9/5 by 1,200+ Happy Clients</li>
+      <li>Helped 5,000+ Families Find Their Dream Homes</li>
+    </ul>
+  </div>
+
+  <!-- Market Success -->
+  <div class="recognition-category">
+    <h3>💼 Market Success</h3>
+    <ul>
+      <li>Over $500M Worth of Properties Sold</li>
+      <li>Average Property Sale Time: 25 Days (Faster than Market Avg.)</li>
+    </ul>
+  </div>
+
+  <!-- Professional Recognition -->
+  <div class="recognition-category">
+    <h3>📈 Professional Recognition</h3>
+    <ul>
+      <li>Featured in “Top 10 Realty Firms” by Real Estate Times</li>
+      <li>Certified Member of National Association of Realtors (NAR)</li>
+    </ul>
+  </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- section 05 -->
+<section class="lead-capture">
+  <h2>Get Your Free Home Valuation</h2>
+  <p>Enter your details below to receive a personalized market report.</p>
+  <form id="leadForm">
+    <label for="name">Full Name</label>
+    <input type="text" id="name" name="name" required>
+    
+    <label for="email">Email Address</label>
+    <input type="email" id="email" name="email" required>
+    
+    <label for="phone">Phone Number</label>
+    <input type="tel" id="phone" name="phone">
+    
+    <label for="property-type">Property Type</label>
+    <select id="property-type" name="property-type">
+      <option value="house">House</option>
+      <option value="apartment">Apartment</option>
+      <option value="condo">Condo</option>
+    </select>
+    
+    <button type="button" class="btn" 
+      onclick="window.location.href='./error.html'">Get My Report
+    </button>
+  </form>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="./product.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
