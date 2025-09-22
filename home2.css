@@ -26,11 +26,12 @@ span{
   display: flex;
   flex-direction: row;
   gap: 100px;
-  margin-top: 20px;
+  /* margin-top: 20px; */
   /* background: linear-gradient(135deg,rgb(45, 105, 95),rgb(37, 87, 75));  */
   background: linear-gradient(135deg,rgb(50, 113, 102),rgb(37, 87, 75)); 
   position: sticky;
   top: 0;
+  height: 140px;
   z-index: 9999;
 }
 
@@ -125,7 +126,8 @@ li.dropdown > a::after {
 }
 
 .dropdown-menu li:first-child a {
-  padding-top: 16px; /* internal spacing of first submenu item—does not break hover chain */
+  /* padding-top: 16px;  */
+  /* internal spacing of first submenu item—does not break hover chain */
 }
 
 /* Show menu on hover or when open */
@@ -139,14 +141,15 @@ li.dropdown.open .dropdown-menu {
 .dropdown-menu {
   display: none;
   position: absolute;
-  top: 100%; /* Positions the dropdown below the parent */
+  /* top: 100%;  */
+  /* Positions the dropdown below the parent */
   left:0;
   background-color:rgb(2, 51, 40);
   width: 150px;
   margin-top: 0;   /* new css */
   border-bottom-right-radius: 40px;
   z-index: 1100;
-  height: 50px;
+  /* height: 50px; */
 }
 
 /* Target only anchor tags inside the dropdown submenu */
@@ -231,6 +234,8 @@ li.dropdown.open .dropdown-menu {
     align-items: flex-start;
     gap: 10px;
     padding: 20px;
+
+    /* margin-bottom: 100px; */
 
     position: static;
     background-color:transparent;
@@ -479,7 +484,7 @@ li.dropdown.open .dropdown-menu {
 /* Responsive adjustments */
 @media (max-width:450px) {
   .hero-content {
-    margin-top:150px;
+    margin-top:330px;
     margin-left:45px;
   }
 
