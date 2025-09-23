@@ -24,7 +24,8 @@ span{
 }
 
 .navBar{
-  background-color: rgb(47, 101, 87);
+  /* background-color: rgb(47, 101, 87); */
+  background: linear-gradient(to right, rgb(46, 104, 91), rgb(37, 87, 75));
   display: flex;
   flex-direction: row;
   gap: 120px;
@@ -68,7 +69,7 @@ span{
   /* new */
   position: relative;         /* Creates proper stacking context */
   z-index: 1000;              /* Ensures navbar background remains visible */
-  background-color: rgb(47, 101, 87);
+  /* background-color: rgb(47, 101, 87); */
 }
 
 /*new css*/
@@ -381,6 +382,7 @@ h1 {
   font-weight: bold;
   line-height: 4rem;
   color:white;
+  font-family: cursive;
 }
 
 h1 span {
@@ -412,9 +414,10 @@ h1 span::after {
 }
 
 .slide-in>p{
-  font-weight: bold;
+  /* font-weight: bold; */
   color:white;
   line-height:1.5rem;
+  font-style: italic;
 }
 
 
@@ -500,12 +503,14 @@ h1 span::after {
   font-size: 1.5rem;
   margin-bottom: 10px;
   color:#ffcc00; /* green accent */
+  font-family: garamond;
 }
 
 .highlight-card p {
   font-size: 1rem;
   color:white;
   line-height: 1.6;
+  font-style: italic;
 }
 
 /* Hover effect */
@@ -622,6 +627,7 @@ h1 span::after {
   color:rgb(43, 93, 81);
   position: relative;
   animation: fadeDown 1s ease forwards;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 .about-text p.intro {
@@ -662,6 +668,8 @@ h1 span::after {
   margin-bottom: 10px;
   color:rgb(43, 93, 81);
   font-size: 1.4rem;
+  font-family: cursive;
+  margin-top: 20px;
 }
 
 .about-box p, 
@@ -730,6 +738,8 @@ h1 span::after {
   text-align: center;
   font-size:3rem;
   color:rgb(43, 93, 81);
+  margin-bottom: 20px;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 .services-slider {
@@ -867,12 +877,16 @@ h1 span::after {
   margin-bottom: 10px;
   color:#ffcc00;
   /* color: white; */
+  font-family: cursive;
 }
 
 .service-card p {
   font-size: 0.95rem;
   margin-bottom: 15px;
   color:white;
+  font-style: italic;
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 .service-card ul {
@@ -1030,10 +1044,11 @@ h1 span::after {
 .blog-container>.title>h2{
   color:white;
   font-size: 3rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .blog-container>.title>.blog-intro{
   color:white;
-  font-weight: bold;
+  font-style: italic;
   margin-top: 30px;
 }
 
@@ -1233,6 +1248,13 @@ h1 span::after {
   font-size: 1.2rem;
   margin-bottom: 10px;
   color:rgb(1, 53, 41);
+  font-family: cursive;
+  margin-bottom: 20px;
+}
+
+.blog-content p{
+  margin-bottom: 15px;
+  
 }
 
 /* Read More Link Animation */
@@ -1243,6 +1265,7 @@ h1 span::after {
   text-decoration: none;
   position: relative;
   font-weight: 600;
+  font-style: italic;
 }
 
 .read-more::after {
@@ -1329,15 +1352,18 @@ h1 span::after {
   box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
   padding-top: 100px;
   border: 5px solid white;
+  
 }
 
 .contact-info h2 {
   font-size: 2em;
-  margin-bottom: 15px;
+  margin-bottom: 45px;
   background:#ffcc00;
   /* color: #ffcc00; */
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  margin-left: 130px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .contact-info p {
@@ -1499,10 +1525,11 @@ h1 span::after {
   margin-bottom: 15px;
   /* border-bottom: 2px solid #ff9900; */
   padding-bottom: 5px;
-  color:rgb(2, 55, 43);
+  color:rgb(12, 124, 98);
   position: relative; /* needed for ::after */
   cursor: pointer;
   display: inline-block;
+  font-family: cursive;
 }
 
 /* Underline animation */
@@ -1514,7 +1541,7 @@ h1 span::after {
   bottom: 0;
   height: 4px;
   width: 0;
-  background:#ffcc00;
+  background:rgb(12, 124, 98);
 
   animation: underlineAnim 2s infinite; /* runs automatically */
 }

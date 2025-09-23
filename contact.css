@@ -29,7 +29,7 @@ span{
 
 .navBar{
   /* background-color: rgb(47, 101, 87); */
-  background: linear-gradient(45deg, rgb(47, 101, 87),rgb(32, 80, 68));
+  background: linear-gradient(45deg, rgb(48, 110, 98),rgb(33, 81, 69));
   display: flex;
   flex-direction: row;
   gap: 120px;
@@ -254,6 +254,7 @@ span{
   color:#ffcc00;
   margin-top: 30px;
   cursor: pointer;
+  font-family: cursive;
 }
 
 /* Create underline using ::after */
@@ -332,11 +333,11 @@ span{
     margin-top: -40px;
     position: relative;
     display: inline-block;
-    font-size: 2rem;
+    font-size: 3rem;
     color: #333;
     padding-bottom: 5px;
     margin-bottom: 20px;
-
+    font-family: cursive;
     font-size: 2em;
     margin-bottom: 15px;
     background:#ffcc00;
@@ -395,6 +396,7 @@ h2::after {
 .contact-info p {
   margin-bottom: 20px;
   color:white;
+  font-style: italic;
 }
 
 .contact-info ul {
@@ -525,11 +527,11 @@ h2::after {
 }
 
 .social-contact p {
-  font-size: 1.7rem;
+  font-size: 2rem;
   color:#ffcc00;
   margin-bottom: 10px;
   font-weight: bold;
-
+  font-family: cursive;
   position: relative;
   display: inline-block;
   padding-bottom: 5px;
@@ -744,7 +746,8 @@ p::after {
   text-align: center;
   font-size: 2rem;
   color:yellow;
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
+  font-family: garamond;
 }
 
 .faq ul {

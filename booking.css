@@ -233,8 +233,14 @@ span{
 }
 
 /* Staggered delay for smooth entrance */
-.hero-text h1 { animation-delay: 0.2s; }
-.hero-text p { animation-delay: 0.4s; }
+.hero-text h1 { 
+  animation-delay: 0.2s; 
+  font-family: cursive;
+}
+.hero-text p { 
+  animation-delay: 0.4s; 
+  font-style: italic;
+}
 .hero-btn { animation-delay: 0.6s; }
 .hero-image img { animation-delay: 0.8s; }
 
@@ -293,7 +299,7 @@ span{
 }
 
 .hero-text p {
-  font-size: 1.2rem;
+  font-size: 1rem;
   margin-bottom: 30px;
   line-height: 1.6;
   max-width: 500px;
@@ -411,6 +417,7 @@ span{
 .booking-content h2 {
   font-size: 2.5rem;
   margin-bottom: 15px;
+  font-family: garamond;
 }
 
 .booking-content p {
@@ -438,6 +445,7 @@ span{
   color: #facc15;
   font-weight: bold;
   margin-right: 10px;
+  /* font-style: italic; */
 }
 
 /* Booking Form */
@@ -454,6 +462,8 @@ span{
   font-size:2rem;
   margin-bottom: 20px;
   color:rgb(1, 38, 29);
+  font-family: cursive;
+  margin-left: 170px;
 }
 
 .booking-form .form-group {

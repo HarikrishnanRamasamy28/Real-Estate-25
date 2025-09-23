@@ -30,7 +30,7 @@ span{
   flex-direction: row;
   gap: 100px;
   margin-top: 20px;
-  background: linear-gradient(135deg,rgb(45, 105, 95),rgb(37, 87, 75)); 
+  background: linear-gradient(135deg,rgb(46, 105, 93),rgb(29, 77, 65)); 
   position: sticky;
   top: 0;
   z-index: 9999;
@@ -218,6 +218,8 @@ span{
   margin-bottom: 0.5em;
   color:#ffcc00;
   /* color:white; */
+
+  font-family: cursive;
 }
 
 .valuation p {
@@ -228,6 +230,7 @@ span{
   max-width: 600px;
   margin-left: auto;
   margin-right: auto;
+  font-style: italic;
 }
 
 .valuation-form {
@@ -381,9 +384,11 @@ span{
 }
 
 .featured-listings h2 {
-  font-size: 2em;
+  font-size: 2rem;
   margin-bottom: 0.3em;
   color:white;
+
+  font-family:monospace;
 }
 
 .featured-listings p {
@@ -462,6 +467,8 @@ span{
   margin: 0 0 0.5em 0;
   font-size: 1.25em;
   color:white;
+
+  font-style: italic;
 }
 
 .property-card .info p {
@@ -598,6 +605,8 @@ span{
   font-size: 2em;
   margin-bottom: 0.5em;
   color:rgb(26, 188, 156);
+
+  font-family: cursive;
 }
 
 .virtual-gallery p {
@@ -608,6 +617,7 @@ span{
   max-width: 600px;
   margin-left: auto;
   margin-right: auto;
+  font-style:oblique;
 }
 
 .gallery-container {
@@ -619,6 +629,8 @@ span{
 
 .images h3{
     color:rgb(26, 188, 156);
+    margin-bottom: 15px;
+    font-family: cursive;
 }
 
 .tour-slider {
@@ -708,6 +720,7 @@ span{
   font-size: 2em;
   margin-bottom: 1em;
   color:#ffcc00;
+  font-family: cursive;
 }
 
 /* Testimonials */
@@ -789,6 +802,7 @@ span{
   margin: 0;
   color:#555;
   font-weight: bold;
+  font-style: italic;
 }
 
 /* Responsiveness */
@@ -828,6 +842,7 @@ span{
   font-size: 2em;
   margin-bottom: 0.5em;
   color:rgb(33, 83, 71);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .exclusive-offer p {
@@ -916,6 +931,8 @@ span{
   font-size: 2em;
   margin-bottom: 1em;
   color: #333;
+  font-family: cursive;
+  margin-left: 150px;
 }
 
 .faq-item {
@@ -978,12 +995,14 @@ span{
   font-size: 2em;
   margin-bottom: 0.5em;
   color:rgb(34, 84, 72);
+  font-family:cursive;
 }
 
 .lead-capture p {
   font-size: 1em;
   margin-bottom: 1em;
   color: #555;
+  font-style: italic;
 }
 
 .lead-form {

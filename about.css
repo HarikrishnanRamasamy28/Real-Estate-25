@@ -25,7 +25,8 @@ span{
 }
 
 .navBar{
-  background-color: rgb(47, 101, 87);
+  /* background-color: rgb(47, 101, 87); */
+  background: linear-gradient(to right,rgb(46, 106, 93), rgb(35, 84, 72));
   display: flex;
   flex-direction: row;
   gap: 120px;
@@ -251,6 +252,7 @@ span{
   color:#ffcc00;
   margin-top: 30px;
   cursor: pointer;
+  font-family: cursive;
 }
 
 /* Create underline using ::after */
@@ -359,6 +361,7 @@ span{
   /* color:black; */
   color:#ffcc00;
   margin-top: 15px;
+  font-family: cursive;
 }
 
 .about-page-section p {
@@ -379,7 +382,7 @@ span{
 }
 
 .about-header span {
-  color: #1e90ff;
+  color:black;
   font-weight: bold;
 }
 

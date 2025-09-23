@@ -21,12 +21,13 @@ body {
 }
 
 .navBar{
-  background-color: rgb(47, 101, 87);
+  /* background-color: rgb(47, 101, 87); */
+  background: linear-gradient(to right, rgb(34, 82, 70), rgb(34, 82, 70));
   display: flex;
   flex-direction: row;
   gap:120px;
   margin-top: 20px;
-
+  height:130px;
   position: sticky;
   top: 0;
   z-index: 9999;
@@ -246,6 +247,7 @@ body {
   color:#ffcc00;
   margin-top: 30px;
   cursor: pointer;
+  font-family: cursive;
 }
 
 /* Create underline using ::after */
@@ -318,12 +320,14 @@ span{
 .blog-hero h1 {
   font-size: 2.75rem;
   margin-bottom: 20px;
+  font-family: cursive;
 }
 
 .blog-hero p {
   font-size: 1.1rem;
   line-height: 1.6;
   margin-bottom: 30px;
+  font-style: italic;
 }
 
 .blog-hero .btn-primary {
@@ -411,6 +415,7 @@ span{
   font-size: 1.7rem;
   color:#ffcc00; /* dark red for highlight */
   margin-bottom: 10px;
+  font-family: garamond;
 }
 
 .blog-stats p {
@@ -465,6 +470,9 @@ span{
   margin-bottom: 10px;
   position: relative;
   display: inline-block;
+  font-family: cursive;
+  margin-top: 70px;
+  margin-bottom: 40px;
 }
 
 .title h2::after {
@@ -524,6 +532,7 @@ span{
   font-size: 1.2rem;
   margin-bottom: 10px;
   color:#ffcc00;
+  font-family:cursive;
 }
 
 .blog-content p {
@@ -537,10 +546,11 @@ span{
   font-weight: bold;
   text-decoration: none;
   transition: color 0.3s;
+  font-style: italic;
 }
 
 .read-more:hover {
-  color:rgb(27, 188, 150);
+  color:red;
 }
 
 
@@ -621,12 +631,15 @@ span{
   box-shadow: 0 4px 12px rgba(0,0,0,0.08);
   font-family: "Segoe UI", Tahoma, sans-serif;
   line-height: 1.7;
+  margin-top: 150px;
 }
 
 .blog-article h2 {
-  font-size: 26px;
+  font-size: 30px;
   margin-bottom: 15px;
-  color: #333;
+  color:rgb(7, 211, 160);
+  font-family: 'Courier New', Courier, monospace;
+  margin-left: 120px;
 }
 
 .blog-article p {
@@ -652,6 +665,7 @@ span{
   color:rgb(7, 211, 160);
   font-size: 25px;
   margin-left: 200px;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 .blog-socials a img {

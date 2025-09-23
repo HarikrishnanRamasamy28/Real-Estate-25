@@ -30,7 +30,7 @@ span{
   flex-direction: row;
   gap: 100px;
   margin-top: 20px;
-  background: linear-gradient(135deg,rgb(45, 105, 95),rgb(37, 87, 75)); 
+  background: linear-gradient(135deg,rgb(45, 105, 95),rgb(32, 80, 68)); 
   position: sticky;
   top: 0;
   z-index: 9999;
@@ -247,12 +247,15 @@ span{
 .hero-text h1 {
   font-size: 2.5rem;
   margin-bottom: 20px;
+  font-family: cursive;
+  
 }
 
 .hero-text p {
   font-size: 1.1rem;
   margin-bottom: 30px;
   line-height: 1.6;
+  font-style: italic;
 }
 
 .hero-highlights {
@@ -347,6 +350,7 @@ span{
 .features-wrap h4{
   font-size: 3rem;
   color: white;
+  font-family:garamond;
 }
 
 .features-title {
@@ -355,6 +359,7 @@ span{
   letter-spacing: -0.2px;
   color:#ffcc00;
   font-size: 2rem;
+  font-family: cursive;
 }
 
 .features-sub {
@@ -459,6 +464,7 @@ span{
   margin: 0;
   font-size: 1.05rem;
   color: #0f172a;
+  font-style: italic;
 }
 
 .mini {
@@ -519,14 +525,16 @@ span{
 }
 
 .achievements-alt h2 {
-  font-size: 2.2rem;
+  font-size: 2.5rem;
   margin-bottom: 15px;
+  font-family: garamond;
 }
 
 .achievements-subtext {
   font-size: 1.05rem;
   margin-bottom: 50px;
   color: rgba(255, 255, 255, 0.9);
+  font-style: italic;
 }
 
 .achievements-stats {
@@ -590,6 +598,8 @@ span{
 
 
 
+
+
 /*== section 04 ==*/
 /* ===== Overall Section ===== */
 .human-section {
@@ -617,6 +627,7 @@ span{
   text-transform: uppercase;
   letter-spacing: 1.5px;
   margin-bottom: 10px;
+  
 }
 
 .main-heading {
@@ -627,6 +638,7 @@ span{
   background: whitesmoke;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  font-family: cursive;
 }
 
 .desc {
@@ -700,9 +712,10 @@ span{
 
 .success-box h3 {
   margin-bottom: 10px;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   font-weight: 700;
   color: rgb(30, 78, 66);
+  font-family: garamond;
 }
 
 .success-box .link {
@@ -713,6 +726,7 @@ span{
   text-decoration: none;
   transition: color 0.3s ease;
   font-weight: bold;
+  font-style: italic;
 }
 
 .success-box .link:hover {
@@ -834,8 +848,10 @@ span{
 }
 
 .cta-section h2 {
-  font-size: 2rem;
+  font-size: 2.5rem;
   margin-bottom: 15px;
+  font-family: 'Times New Roman', Times, serif;
+  color: #ffcc00;
 }
 
 .cta-section p {

@@ -260,6 +260,8 @@ span{
   font-size: 3rem;
   margin-bottom: 0.5rem;
   /* color:rgb(50, 113, 102) ; */
+
+  font-family: cursive;
 }
 .hero-content .highlight {
   color: #ffcc00;
@@ -405,6 +407,8 @@ span{
   margin-bottom: 10px;
   text-align: center;
   color: white;
+
+  font-family: lucida sans-serif;
 }
 
 .property-listings h3 {
@@ -413,6 +417,8 @@ span{
   color: #ffcc00;
   position: relative;   /* required for ::after positioning */
   display: inline-block; /* so underline fits text width */
+
+  font-family:cursive ;
 }
 
 /* underline element */
@@ -590,6 +596,8 @@ span{
   font-weight: 700;
   font-size: 2rem;
   margin-top: 100px;
+
+  font-family: 'Courier New', Courier, monospace;
 }
 
 /* Testimonials */
@@ -677,6 +685,8 @@ span{
   color: #0ea5a4;
   margin-bottom: 10px;
   font-size: 1.3rem;
+
+  font-family: cursive;
 }
 
 .company-values p {
@@ -710,6 +720,8 @@ span{
   color: #0ea5a4;
   margin-bottom: 10px;
   font-size: 1.3rem;
+
+  font-family: cursive;
 }
 
 .latest-news p {
@@ -785,6 +797,7 @@ span{
   color:#ffcc00;
   position: relative;
   display: inline-block;
+  font-family:'Courier New', Courier, monospace;
 }
 
 .awards-recognition h2::after {
@@ -828,6 +841,7 @@ span{
   margin-bottom: 15px;
   color: #0ea5a4;
   font-weight: 700;
+  font-family:cursive;
 }
 
 /* List Style */
@@ -915,6 +929,7 @@ span{
   text-align: center;
   margin-bottom: 20px;
   color:#ffcc00 ;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .lead-capture p {
