@@ -247,7 +247,7 @@ span{
 .hero-text h1 {
   font-size: 2.5rem;
   margin-bottom: 20px;
-  font-family: cursive;
+  /* font-family: cursive; */
   
 }
 
@@ -350,7 +350,7 @@ span{
 .features-wrap h4{
   font-size: 3rem;
   color: white;
-  font-family:garamond;
+  /* font-family:garamond; */
 }
 
 .features-title {
@@ -359,7 +359,7 @@ span{
   letter-spacing: -0.2px;
   color:#ffcc00;
   font-size: 2rem;
-  font-family: cursive;
+  /* font-family: cursive; */
 }
 
 .features-sub {
@@ -527,7 +527,7 @@ span{
 .achievements-alt h2 {
   font-size: 2.5rem;
   margin-bottom: 15px;
-  font-family: garamond;
+  /* font-family: garamond; */
 }
 
 .achievements-subtext {
@@ -638,7 +638,7 @@ span{
   background: whitesmoke;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-family: cursive;
+  /* font-family: cursive; */
 }
 
 .desc {
@@ -715,7 +715,7 @@ span{
   font-size: 1.5rem;
   font-weight: 700;
   color: rgb(30, 78, 66);
-  font-family: garamond;
+  /* font-family: garamond; */
 }
 
 .success-box .link {
@@ -850,7 +850,7 @@ span{
 .cta-section h2 {
   font-size: 2.5rem;
   margin-bottom: 15px;
-  font-family: 'Times New Roman', Times, serif;
+  /* font-family: 'Times New Roman', Times, serif; */
   color: #ffcc00;
 }
 

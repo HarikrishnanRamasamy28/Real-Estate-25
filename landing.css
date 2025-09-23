@@ -219,7 +219,7 @@ span{
   color:#ffcc00;
   /* color:white; */
 
-  font-family: cursive;
+  /* font-family: cursive; */
 }
 
 .valuation p {
@@ -388,7 +388,7 @@ span{
   margin-bottom: 0.3em;
   color:white;
 
-  font-family:monospace;
+  /* font-family:monospace; */
 }
 
 .featured-listings p {
@@ -468,7 +468,7 @@ span{
   font-size: 1.25em;
   color:white;
 
-  font-style: italic;
+  /* font-style: italic; */
 }
 
 .property-card .info p {
@@ -606,7 +606,7 @@ span{
   margin-bottom: 0.5em;
   color:rgb(26, 188, 156);
 
-  font-family: cursive;
+  /* font-family: cursive; */
 }
 
 .virtual-gallery p {
@@ -630,7 +630,7 @@ span{
 .images h3{
     color:rgb(26, 188, 156);
     margin-bottom: 15px;
-    font-family: cursive;
+    /* font-family: cursive; */
 }
 
 .tour-slider {
@@ -720,7 +720,7 @@ span{
   font-size: 2em;
   margin-bottom: 1em;
   color:#ffcc00;
-  font-family: cursive;
+  /* font-family: cursive; */
 }
 
 /* Testimonials */
@@ -842,7 +842,7 @@ span{
   font-size: 2em;
   margin-bottom: 0.5em;
   color:rgb(33, 83, 71);
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
 }
 
 .exclusive-offer p {
@@ -931,7 +931,7 @@ span{
   font-size: 2em;
   margin-bottom: 1em;
   color: #333;
-  font-family: cursive;
+  /* font-family: cursive; */
   margin-left: 150px;
 }
 
@@ -995,7 +995,7 @@ span{
   font-size: 2em;
   margin-bottom: 0.5em;
   color:rgb(34, 84, 72);
-  font-family:cursive;
+  /* font-family:cursive; */
 }
 
 .lead-capture p {

@@ -261,7 +261,7 @@ span{
   margin-bottom: 0.5rem;
   /* color:rgb(50, 113, 102) ; */
 
-  font-family: cursive;
+  /* font-family: cursive; */
 }
 .hero-content .highlight {
   color: #ffcc00;
@@ -408,7 +408,7 @@ span{
   text-align: center;
   color: white;
 
-  font-family: lucida sans-serif;
+  /* font-family: lucida sans-serif; */
 }
 
 .property-listings h3 {
@@ -418,7 +418,7 @@ span{
   position: relative;   /* required for ::after positioning */
   display: inline-block; /* so underline fits text width */
 
-  font-family:cursive ;
+  /* font-family:cursive ; */
 }
 
 /* underline element */
@@ -597,7 +597,7 @@ span{
   font-size: 2rem;
   margin-top: 100px;
 
-  font-family: 'Courier New', Courier, monospace;
+  /* font-family: 'Courier New', Courier, monospace; */
 }
 
 /* Testimonials */
@@ -686,7 +686,7 @@ span{
   margin-bottom: 10px;
   font-size: 1.3rem;
 
-  font-family: cursive;
+  /* font-family: cursive; */
 }
 
 .company-values p {
@@ -721,7 +721,7 @@ span{
   margin-bottom: 10px;
   font-size: 1.3rem;
 
-  font-family: cursive;
+  /* font-family: cursive; */
 }
 
 .latest-news p {
@@ -797,7 +797,7 @@ span{
   color:#ffcc00;
   position: relative;
   display: inline-block;
-  font-family:'Courier New', Courier, monospace;
+  /* font-family:'Courier New', Courier, monospace; */
 }
 
 .awards-recognition h2::after {
@@ -841,7 +841,7 @@ span{
   margin-bottom: 15px;
   color: #0ea5a4;
   font-weight: 700;
-  font-family:cursive;
+  /* font-family:cursive; */
 }
 
 /* List Style */
@@ -929,7 +929,8 @@ span{
   text-align: center;
   margin-bottom: 20px;
   color:#ffcc00 ;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  /* font-family: Georgia, 'Times New Roman', Times, serif; */
+  font-size: 2rem;
 }
 
 .lead-capture p {

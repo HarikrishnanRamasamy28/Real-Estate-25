@@ -382,7 +382,7 @@ h1 {
   font-weight: bold;
   line-height: 4rem;
   color:white;
-  font-family: cursive;
+  /* font-family: cursive; */
 }
 
 h1 span {
@@ -503,7 +503,7 @@ h1 span::after {
   font-size: 1.5rem;
   margin-bottom: 10px;
   color:#ffcc00; /* green accent */
-  font-family: garamond;
+  /* font-family: garamond; */
 }
 
 .highlight-card p {
@@ -627,7 +627,7 @@ h1 span::after {
   color:rgb(43, 93, 81);
   position: relative;
   animation: fadeDown 1s ease forwards;
-  font-family: 'Times New Roman', Times, serif;
+  /* font-family: 'Times New Roman', Times, serif; */
 }
 
 .about-text p.intro {
@@ -668,7 +668,7 @@ h1 span::after {
   margin-bottom: 10px;
   color:rgb(43, 93, 81);
   font-size: 1.4rem;
-  font-family: cursive;
+  /* font-family: cursive; */
   margin-top: 20px;
 }
 
@@ -739,7 +739,7 @@ h1 span::after {
   font-size:3rem;
   color:rgb(43, 93, 81);
   margin-bottom: 20px;
-  font-family: 'Courier New', Courier, monospace;
+  /* font-family: 'Courier New', Courier, monospace; */
 }
 
 .services-slider {
@@ -877,7 +877,7 @@ h1 span::after {
   margin-bottom: 10px;
   color:#ffcc00;
   /* color: white; */
-  font-family: cursive;
+  /* font-family: cursive; */
 }
 
 .service-card p {
@@ -1044,7 +1044,7 @@ h1 span::after {
 .blog-container>.title>h2{
   color:white;
   font-size: 3rem;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  /* font-family: Georgia, 'Times New Roman', Times, serif; */
 }
 .blog-container>.title>.blog-intro{
   color:white;
@@ -1248,7 +1248,7 @@ h1 span::after {
   font-size: 1.2rem;
   margin-bottom: 10px;
   color:rgb(1, 53, 41);
-  font-family: cursive;
+  /* font-family: cursive; */
   margin-bottom: 20px;
 }
 
@@ -1363,7 +1363,7 @@ h1 span::after {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-left: 130px;
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  
 }
 
 .contact-info p {
@@ -1529,7 +1529,7 @@ h1 span::after {
   position: relative; /* needed for ::after */
   cursor: pointer;
   display: inline-block;
-  font-family: cursive;
+  /* font-family: cursive; */
 }
 
 /* Underline animation */

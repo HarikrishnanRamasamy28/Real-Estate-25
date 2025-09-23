@@ -252,7 +252,7 @@ span{
   color:#ffcc00;
   margin-top: 30px;
   cursor: pointer;
-  font-family: cursive;
+  /* font-family: cursive; */
 }
 
 /* Create underline using ::after */
@@ -361,7 +361,7 @@ span{
   /* color:black; */
   color:#ffcc00;
   margin-top: 15px;
-  font-family: cursive;
+  /* font-family: cursive; */
 }
 
 .about-page-section p {

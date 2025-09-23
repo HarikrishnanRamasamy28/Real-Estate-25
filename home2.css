@@ -354,7 +354,7 @@ li.dropdown.open .dropdown-menu {
   font-weight: bold;
   color:white;
   text-align: center;
-  font-family: garamond;
+  /* font-family: garamond; */
   
 }
 
@@ -367,7 +367,7 @@ li.dropdown.open .dropdown-menu {
   font-weight: bold;
   /* text-align: center; */
 
-  font-family: cursive;
+  /* font-family: cursive; */
 }
 
 /* Animated underline */
@@ -424,7 +424,7 @@ li.dropdown.open .dropdown-menu {
   font-weight: bold;
   font-size: 1rem;
 
-  font-family:serif;
+ 
 }
 
 .list{
@@ -432,7 +432,7 @@ li.dropdown.open .dropdown-menu {
   display: inline-block;
   padding-bottom: 8px;
 
-  font-family: cursive;
+  /* font-family: cursive; */
 }
 .hover-underline-bg {
   color: #ffcc00;
@@ -556,7 +556,7 @@ li.dropdown.open .dropdown-menu {
   font-size: 2.4rem;
   margin-bottom: 1rem;
   color: #2c3e50;
-  font-family: cursive;
+  /* font-family: cursive; */
 }
 .products-section h2 span {
   color: #1abc9c;
@@ -682,7 +682,7 @@ li.dropdown.open .dropdown-menu {
   font-size: 1.2rem;
   margin-bottom: 0.5rem;
   color:white;
-  font-family: 'Times New Roman', Times, serif;
+  /* font-family: 'Times New Roman', Times, serif; */
 }
 .product-content p {
   font-size: 0.95rem;
@@ -877,7 +877,7 @@ li.dropdown.open .dropdown-menu {
   line-height: 1.2;
   /* width: 800px; */
 
-  font-family: cursive;
+  /* font-family: cursive; */
 }
 
 .hero p {
@@ -1039,7 +1039,7 @@ li.dropdown.open .dropdown-menu {
   margin-bottom: 1.5rem;
   font-weight: bold;
 
-  font-family: cursive;
+  /* font-family: cursive; */
 }
 
 .testimonial {
@@ -1218,7 +1218,7 @@ li.dropdown.open .dropdown-menu {
   margin-bottom: 15px;
   text-shadow: 2px 2px 10px rgba(0,0,0,0.8);
 
-  font-family: cursive;
+  /* font-family: cursive; */
 }
 
 .img-with-content h2 span {
@@ -1296,7 +1296,7 @@ li.dropdown.open .dropdown-menu {
   margin-bottom: 10px;
   font-weight: bold;
 
-  font-family: monospace;
+  /* font-family: monospace; */
 }
 
 /* Paragraph */
@@ -1453,7 +1453,7 @@ li.dropdown.open .dropdown-menu {
   cursor: pointer;
   display: inline-block;
 
-  font-family: cursive;
+  /* font-family: cursive; */
 }
 
 /* Underline animation */

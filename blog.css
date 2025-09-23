@@ -247,7 +247,7 @@ body {
   color:#ffcc00;
   margin-top: 30px;
   cursor: pointer;
-  font-family: cursive;
+  /* font-family: cursive; */
 }
 
 /* Create underline using ::after */
@@ -320,7 +320,7 @@ span{
 .blog-hero h1 {
   font-size: 2.75rem;
   margin-bottom: 20px;
-  font-family: cursive;
+  /* font-family: cursive; */
 }
 
 .blog-hero p {
@@ -415,7 +415,7 @@ span{
   font-size: 1.7rem;
   color:#ffcc00; /* dark red for highlight */
   margin-bottom: 10px;
-  font-family: garamond;
+  /* font-family: garamond; */
 }
 
 .blog-stats p {
@@ -470,7 +470,7 @@ span{
   margin-bottom: 10px;
   position: relative;
   display: inline-block;
-  font-family: cursive;
+  /* font-family: cursive; */
   margin-top: 70px;
   margin-bottom: 40px;
 }
@@ -532,7 +532,7 @@ span{
   font-size: 1.2rem;
   margin-bottom: 10px;
   color:#ffcc00;
-  font-family:cursive;
+  /* font-family:cursive; */
 }
 
 .blog-content p {
@@ -629,7 +629,7 @@ span{
   background: #fff;
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.08);
-  font-family: "Segoe UI", Tahoma, sans-serif;
+  /* font-family: "Segoe UI", Tahoma, sans-serif; */
   line-height: 1.7;
   margin-top: 150px;
 }
@@ -638,7 +638,7 @@ span{
   font-size: 30px;
   margin-bottom: 15px;
   color:rgb(7, 211, 160);
-  font-family: 'Courier New', Courier, monospace;
+  /* font-family: 'Courier New', Courier, monospace; */
   margin-left: 120px;
 }
 
@@ -665,7 +665,7 @@ span{
   color:rgb(7, 211, 160);
   font-size: 25px;
   margin-left: 200px;
-  font-family: 'Courier New', Courier, monospace;
+  /* font-family: 'Courier New', Courier, monospace; */
 }
 
 .blog-socials a img {

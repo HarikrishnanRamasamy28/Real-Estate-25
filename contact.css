@@ -254,7 +254,7 @@ span{
   color:#ffcc00;
   margin-top: 30px;
   cursor: pointer;
-  font-family: cursive;
+  /* font-family: cursive; */
 }
 
 /* Create underline using ::after */
@@ -337,7 +337,7 @@ span{
     color: #333;
     padding-bottom: 5px;
     margin-bottom: 20px;
-    font-family: cursive;
+    /* font-family: cursive; */
     font-size: 2em;
     margin-bottom: 15px;
     background:#ffcc00;
@@ -531,7 +531,7 @@ h2::after {
   color:#ffcc00;
   margin-bottom: 10px;
   font-weight: bold;
-  font-family: cursive;
+  /* font-family: cursive; */
   position: relative;
   display: inline-block;
   padding-bottom: 5px;
@@ -747,7 +747,7 @@ p::after {
   font-size: 2rem;
   color:yellow;
   margin-bottom: 1.5rem;
-  font-family: garamond;
+  /* font-family: garamond; */
 }
 
 .faq ul {
